@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "SmartArrayP822InfoParser"
+version = "1.0.0"
+description = ""
+authors = ["Raul Oroian"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+influxdb-client = "*"
+
