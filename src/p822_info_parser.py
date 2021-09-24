@@ -93,7 +93,7 @@ class P822InfoParser:
         data = {}
         for item in drive_info_list_str:
             if "Box" in item:
-                data["box"] = int(self.get_info_value(item, ":"))
+                data["box"] = self.get_info_value(item, ":")
             elif "Port" in item:
                 data["port"] = self.get_info_value(item, ":")
             elif "Bay" in item:
